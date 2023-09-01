@@ -8,3 +8,5 @@ git config --global user.email teste@teste.com - Mesma função anterior só que
 git add arquivo.txt - adiciona o arquivo 'arquivo.txt' a staging (área de preparação)
 git add . - adiciona todos os aquivos modificados ou criados à staging (área de preparação)
 git commit -m "descrição da commit" - Registro autenticado das mudanças após ser enviado a área de staging
+git branch NOME-DA-BRANCH - cria uma nova ramificação se alterar o ramo principal
+git checkout NOME-DA BRANCH - alterna entre as ramificações
