@@ -1,0 +1,10 @@
+Comandos GIT aprendidos:
+
+git init - Inicia um repositorio local
+git config user.name "Fulano de Tal" - Registra o nome do usuário
+git config --global user.name "Fulano de Tal" - Mesma função anterior só que para computadores de uso exclusivo
+git config user.email teste@teste.com - regista o email do usuário (Preferencial que seja o mesmo cadastrado no Github)
+git config --global user.email teste@teste.com - Mesma função anterior só que para computadores de uso exclusivo
+git add arquivo.txt - adiciona o arquivo 'arquivo.txt' a staging (área de preparação)
+git add . - adiciona todos os aquivos modificados ou criados à staging (área de preparação)
+git commit -m "descrição da commit" - Registro autenticado das mudanças após ser enviado a área de staging
