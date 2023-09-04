@@ -10,3 +10,6 @@ git add . - adiciona todos os aquivos modificados ou criados à staging (área d
 git commit -m "descrição da commit" - Registro autenticado das mudanças após ser enviado a área de staging
 git branch NOME-DA-BRANCH - cria uma nova ramificação se alterar o ramo principal
 git checkout NOME-DA BRANCH - alterna entre as ramificações
+git remote add origin URL - linka o repositorio local com o remoto
+git branch -M main - estabelece a ramificação como main
+git push -u origin main - encaminha as atualizações do repositorio local para o repositorio remoto
